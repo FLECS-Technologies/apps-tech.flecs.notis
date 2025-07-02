@@ -5,8 +5,11 @@
     "version": "##VERSION##",
     "revision": "0",
     "image": "flecs.azurecr.io/tech.flecs.notis",
-    "conffiles": [
-        "config.json:/config.json:ro"
+    "volumes": [
+        "notis-config:/notis/config"
+    ],
+    "env": [
+        "NOTIS_CONFIG_PATH=/notis/config/config.json"
     ],
     "ports": [
         "15825:15825"
