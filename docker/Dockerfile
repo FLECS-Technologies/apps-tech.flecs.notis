@@ -3,4 +3,4 @@ ARG VERSION
 ARG VARIANT
 
 FROM flecspublic.azurecr.io/apps/notis:${VERSION}
-RUN mkdir -p "/notis/config"
+RUN mkdir -p "/config"

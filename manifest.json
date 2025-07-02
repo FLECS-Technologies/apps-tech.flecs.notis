@@ -7,10 +7,10 @@
     "image": "flecs.azurecr.io/tech.flecs.notis",
     "hostname": "flecs-notis",
     "volumes": [
-        "notis-config:/notis/config"
+        "notis-config:/config"
     ],
     "env": [
-        "NOTIS_CONFIG_PATH=/notis/config/config.json"
+        "NOTIS_CONFIG_PATH=/config/config.json"
     ],
     "ports": [
         "15825:15825"
