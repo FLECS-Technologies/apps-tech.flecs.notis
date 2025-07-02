@@ -5,6 +5,7 @@
     "version": "##VERSION##",
     "revision": "0",
     "image": "flecs.azurecr.io/tech.flecs.notis",
+    "hostname": "flecs-notis",
     "volumes": [
         "notis-config:/notis/config"
     ],
